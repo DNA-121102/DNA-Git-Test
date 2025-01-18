@@ -5,6 +5,7 @@
 // alert (nama);
 // var konfir=confirm('kamu yakin?');
 // alert(konfir);
+// Contoh penghentian looping loop yang diatur oleh user.
 alert('selamat datang..');
 var lagi=true;
 while (lagi === true){
@@ -14,3 +15,6 @@ while (lagi === true){
     lagi = confirm('coba lagi');
 }
 alert('terima kasih');
+for (var i=1; i<=10; i++){
+ console.log("Hello Bro!");   
+}
