@@ -18,8 +18,8 @@
 // }
 // console.log(t);
 var angka=prompt('masukkan angka: ');
-if (angka % 2 ===0){
-    alert('Angka'+angka+'adalah bilangan genap');
+if (angka % 2 === 0){
+    alert('Angka '+angka+' adalah bilangan genap');
 }else{
-    alert('Angka'+angka+'adalah bilangan ganjil')
+    alert('Angka '+angka+' adalah bilangan ganjil')
 }
