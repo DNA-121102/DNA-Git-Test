@@ -39,6 +39,6 @@ while(lagi){
         hasil='Memasukkan pilihan yang salah';
     }
     // tampilkan hasilnya
-    alert('Kamu memilih : '+p+' '+' dan komputer memilih: '+' '+comp+' \n Maka Hasilnya: Kamu'+ hasil);
+    alert('Kamu memilih : '+p+' '+' dan komputer memilih: '+' '+comp+' \n Maka Hasilnya:'+ hasil);
     lagi= confirm ('Mau main lagi?');
 }
