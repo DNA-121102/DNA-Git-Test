@@ -32,5 +32,34 @@ function Mahasiswa(nama,nim,email,jurusan){
 var mhs2=new Mahasiswa('Dani Novrian','2250904071110455','abc@gmail.com','Matematika');//untuk memanggil objectnya
 //perbedaan function declaration dan constructor yaitu dibagian deklarasi object dan pemanggilannya.
 
+//this: adalah sebuah keyword spesial yang secara otomatis didefinisikan untuk semua function. Di scope global this adalah window.
+// a=15
+// console.log(this.a);
+// this mengembalikan object global
 
+// cara 1-function declaration
+// function halo(){
+//     console.log(this);
+//     console.log('halo');
+// }
+// this.halo();
+// pada function declaration this mengembalikan object global
 
+//cara 2-object literal
+// var obj= {a:10,b:11,c:12};
+// obj.halo= function(){
+//     console.log(this);
+//     console.log('halo');
+// }
+// obj.halo();
+// this mengembalikan object yang bersangkutan
+
+// cara 3-constructor
+function Halo(){
+    console.log(this);
+    console.log('YA');
+
+}
+var obj1=new Halo();
+var obj2=new Halo();
+//this mengembalikan object yang baru dibuat

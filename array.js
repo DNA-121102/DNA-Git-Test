@@ -20,4 +20,4 @@ for (var i=0; i<arr.length; i++){
     console.log('Mahasiswa ke - '+[i+1]+' adalah '+arr[i]);
 
 }
-alert(arr.find('Dadang'));
+
